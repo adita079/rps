@@ -1,0 +1,43 @@
+body{
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgb(25, 25,25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.but2,.but12{
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: none;
+}
+button {
+    background-color: rgb(25, 25,25);
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    margin-left: 15px;
+    border-color: white;
+    border: 3px solid white;
+    transition: opacity 0.38s;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.5;
+}
+.emoji{
+    width: 70px;
+    height: 70px;
+}
+.resetB,.auto-play{
+    background-color: lightgray;
+    height: 49px;
+    width: 140px;
+    font-size: 18px;
+}

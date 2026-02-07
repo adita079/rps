@@ -79,7 +79,7 @@ function playGame(playerMove) {
     }
     document.querySelector('.js1-result').innerHTML=result;
     document.querySelector('.js2-result').innerHTML=`You Chose:  <img class="emoji" src="./images/${playerMove}.jfif" alt="">, 
-    Computer Chose:  <img class="emoji" src="./images/${playerMove}.jfif" alt="">`;
+    Computer Chose:  <img class="emoji" src="./images/${computerMove}.jfif" alt="">`;
     // Save updated score to localStorage
     localStorage.setItem('score', JSON.stringify(score));
 

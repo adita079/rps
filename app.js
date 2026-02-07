@@ -85,6 +85,7 @@ function playGame(playerMove) {
 
     // Update UI
     updateScoreElement();
+    //i have changed my name but i don't have a commit to make ifkkk
   
 
 }
